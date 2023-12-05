@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>TASTE MATE</title>
+</head>
+<body>
+
+    <header>
+        <h1>WELCOME TO TASTE MATE</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h2>Order Delicious Food Online</h2>
+            <p>Choose from our diverse menu and get it delivered to your doorstep.</p>
+            <a href="#menu" class="cta-button">View Menu</a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-item">
+            <img src="https://t4.ftcdn.net/jpg/02/11/55/17/360_F_211551718_Ol7eOQYNDK5S8pbEHMkagk9kbdYTJ2iX.jpg" alt="Burger">
+            <h3>Pizza</h3>
+            <p>Delicious pizza with varity of toppings.</p>
+            <p class="price">starts from ₹150</p>
+                 
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-item">
+            <img src="https://t4.ftcdn.net/jpg/05/81/42/55/360_F_581425504_CAYlDq3s7dsWsO0cxRF39WN2gyKtcs9d.jpg" alt="Burger">
+            <h3>Burger</h3>
+            <p>Delicious burger with fresh veggies.</p>
+            <p class="price">starts from ₹50</p>
+        </div>
+
+        <!-- Add more menu items as needed -->
+
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Taste mate, where we strive to provide you with the best culinary experience.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or feedback? Reach out to us!</p>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="1" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</body>
+</html>
